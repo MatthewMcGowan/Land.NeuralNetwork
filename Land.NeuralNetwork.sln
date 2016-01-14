@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Land.NeuralNetwork.Console", "Land.NeuralNetwork.Console\Land.NeuralNetwork.Console.csproj", "{A3EE8156-5FDE-4061-93FC-7B35BA408EE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{78E14B8F-CDF1-40BD-98C1-5F3426BDA290}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F8B27281-55C7-4C64-B5EE-5D5E77051CC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8162943C-3925-4361-B1AD-624491D6FD88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{63FEB286-11D6-4711-AE3B-C7D6F501F222}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{C888C7FD-7D61-4338-B983-E10F21401A4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7E862975-FF57-4798-B301-76922EB723CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{80BD3EA3-38A6-4713-BBC0-2711FBD6C988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Land.NeuralNetwork.Core", "Land.NeuralNetwork.Core\Land.NeuralNetwork.Core.csproj", "{C7021556-0DA5-49E7-874D-6F7D5E6A222E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Land.NeuralNetwork.DependencyInjection", "Land.NeuralNetwork.DependencyInjection\Land.NeuralNetwork.DependencyInjection.csproj", "{B6BD3D28-58B2-4435-987D-7C72C6DD64DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Land.NeuralNetwork.Reader", "Land.NeuralNetwork.Reader\Land.NeuralNetwork.Reader.csproj", "{435D7E38-FB0B-4596-A084-3D1E84A49019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Land.NeuralNetwork.NeuralNetwork", "Land.NeuralNetwork.NeuralNetwork\Land.NeuralNetwork.NeuralNetwork.csproj", "{251D6D0C-9FEA-432C-9295-A218A0DAE2DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3EE8156-5FDE-4061-93FC-7B35BA408EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3EE8156-5FDE-4061-93FC-7B35BA408EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3EE8156-5FDE-4061-93FC-7B35BA408EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3EE8156-5FDE-4061-93FC-7B35BA408EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7021556-0DA5-49E7-874D-6F7D5E6A222E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7021556-0DA5-49E7-874D-6F7D5E6A222E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7021556-0DA5-49E7-874D-6F7D5E6A222E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7021556-0DA5-49E7-874D-6F7D5E6A222E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6BD3D28-58B2-4435-987D-7C72C6DD64DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6BD3D28-58B2-4435-987D-7C72C6DD64DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6BD3D28-58B2-4435-987D-7C72C6DD64DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6BD3D28-58B2-4435-987D-7C72C6DD64DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{435D7E38-FB0B-4596-A084-3D1E84A49019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435D7E38-FB0B-4596-A084-3D1E84A49019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435D7E38-FB0B-4596-A084-3D1E84A49019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435D7E38-FB0B-4596-A084-3D1E84A49019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251D6D0C-9FEA-432C-9295-A218A0DAE2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251D6D0C-9FEA-432C-9295-A218A0DAE2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251D6D0C-9FEA-432C-9295-A218A0DAE2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251D6D0C-9FEA-432C-9295-A218A0DAE2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3EE8156-5FDE-4061-93FC-7B35BA408EE3} = {78E14B8F-CDF1-40BD-98C1-5F3426BDA290}
+		{C888C7FD-7D61-4338-B983-E10F21401A4F} = {63FEB286-11D6-4711-AE3B-C7D6F501F222}
+		{7E862975-FF57-4798-B301-76922EB723CB} = {63FEB286-11D6-4711-AE3B-C7D6F501F222}
+		{80BD3EA3-38A6-4713-BBC0-2711FBD6C988} = {63FEB286-11D6-4711-AE3B-C7D6F501F222}
+		{C7021556-0DA5-49E7-874D-6F7D5E6A222E} = {F8B27281-55C7-4C64-B5EE-5D5E77051CC9}
+		{B6BD3D28-58B2-4435-987D-7C72C6DD64DA} = {8162943C-3925-4361-B1AD-624491D6FD88}
+		{435D7E38-FB0B-4596-A084-3D1E84A49019} = {8162943C-3925-4361-B1AD-624491D6FD88}
+		{251D6D0C-9FEA-432C-9295-A218A0DAE2DA} = {8162943C-3925-4361-B1AD-624491D6FD88}
+	EndGlobalSection
+EndGlobal

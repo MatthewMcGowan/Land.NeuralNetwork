@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Land.NeuralNetwork.NeuralNetwork
+namespace Land.NeuralNetwork.Core.Interfaces.Repository
 {
-    public class Class1
+    public interface IGaussianRepository
     {
     }
 }

@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Land.NeuralNetwork.Reader",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Land.NeuralNetwork.NeuralNetwork", "Land.NeuralNetwork.NeuralNetwork\Land.NeuralNetwork.NeuralNetwork.csproj", "{251D6D0C-9FEA-432C-9295-A218A0DAE2DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Land.NeuralNetwork.Normalisation", "Land.NeuralNetwork.Normalisation\Land.NeuralNetwork.Normalisation.csproj", "{1C7B3821-5B26-4249-A9AF-C70C9E73A2E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{251D6D0C-9FEA-432C-9295-A218A0DAE2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{251D6D0C-9FEA-432C-9295-A218A0DAE2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{251D6D0C-9FEA-432C-9295-A218A0DAE2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C7B3821-5B26-4249-A9AF-C70C9E73A2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C7B3821-5B26-4249-A9AF-C70C9E73A2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C7B3821-5B26-4249-A9AF-C70C9E73A2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C7B3821-5B26-4249-A9AF-C70C9E73A2E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,5 +72,6 @@ Global
 		{B6BD3D28-58B2-4435-987D-7C72C6DD64DA} = {8162943C-3925-4361-B1AD-624491D6FD88}
 		{435D7E38-FB0B-4596-A084-3D1E84A49019} = {8162943C-3925-4361-B1AD-624491D6FD88}
 		{251D6D0C-9FEA-432C-9295-A218A0DAE2DA} = {8162943C-3925-4361-B1AD-624491D6FD88}
+		{1C7B3821-5B26-4249-A9AF-C70C9E73A2E3} = {8162943C-3925-4361-B1AD-624491D6FD88}
 	EndGlobalSection
 EndGlobal

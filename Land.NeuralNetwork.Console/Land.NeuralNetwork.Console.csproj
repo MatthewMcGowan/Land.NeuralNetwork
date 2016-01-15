@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.2.3-unstable-012\lib\net45-full\Ninject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,6 +52,29 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Land.NeuralNetwork.Core\Land.NeuralNetwork.Core.csproj">
+      <Project>{c7021556-0da5-49e7-874d-6f7d5e6a222e}</Project>
+      <Name>Land.NeuralNetwork.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Land.NeuralNetwork.DependencyInjection\Land.NeuralNetwork.DependencyInjection.csproj">
+      <Project>{b6bd3d28-58b2-4435-987d-7c72c6dd64da}</Project>
+      <Name>Land.NeuralNetwork.DependencyInjection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Land.NeuralNetwork.NeuralNetwork\Land.NeuralNetwork.NeuralNetwork.csproj">
+      <Project>{251d6d0c-9fea-432c-9295-a218a0dae2da}</Project>
+      <Name>Land.NeuralNetwork.NeuralNetwork</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Land.NeuralNetwork.Normalisation\Land.NeuralNetwork.Normalisation.csproj">
+      <Project>{1c7b3821-5b26-4249-a9af-c70c9e73a2e3}</Project>
+      <Name>Land.NeuralNetwork.Normalisation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Land.NeuralNetwork.Reader\Land.NeuralNetwork.Reader.csproj">
+      <Project>{435d7e38-fb0b-4596-a084-3d1e84a49019}</Project>
+      <Name>Land.NeuralNetwork.Reader</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

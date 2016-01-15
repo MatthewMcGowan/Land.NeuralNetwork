@@ -40,13 +40,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\Extensions\IEnumerableExtensions.cs" />
+    <Compile Include="Helpers\Statics\Encoders.cs" />
+    <Compile Include="Interfaces\Repository\IGaussianRepository.cs" />
+    <Compile Include="Interfaces\Repository\INeuralNetworkRepository.cs" />
+    <Compile Include="Interfaces\Services\IGaussianService.cs" />
+    <Compile Include="Interfaces\Services\INeuralNetworkService.cs" />
+    <Compile Include="Models\Encodings\Duration.cs" />
+    <Compile Include="Models\Encodings\IsNew.cs" />
+    <Compile Include="Models\Encodings\PropertyType.cs" />
+    <Compile Include="Models\Encodings\Region.cs" />
+    <Compile Include="Models\Encodings\TransferDate.cs" />
+    <Compile Include="Models\LandRegistryData\PropertySale.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\Repository\" />
-    <Folder Include="Interfaces\Services\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

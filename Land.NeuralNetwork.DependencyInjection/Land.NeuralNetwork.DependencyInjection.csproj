@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>b6bd3d28-58b2-4435-987d-7c72c6dd64da</ProjectGuid>
+    <ProjectGuid>{B6BD3D28-58B2-4435-987D-7C72C6DD64DA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Land.NeuralNetwork.DependencyInjection</RootNamespace>
@@ -30,24 +30,42 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.2.3-unstable-012\lib\net45-full\Ninject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Land.NeuralNetwork.Core\Land.NeuralNetwork.Core.csproj">
+      <Project>{c7021556-0da5-49e7-874d-6f7d5e6a222e}</Project>
+      <Name>Land.NeuralNetwork.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Land.NeuralNetwork.NeuralNetwork\Land.NeuralNetwork.NeuralNetwork.csproj">
+      <Project>{251d6d0c-9fea-432c-9295-a218a0dae2da}</Project>
+      <Name>Land.NeuralNetwork.NeuralNetwork</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Land.NeuralNetwork.Normalisation\Land.NeuralNetwork.Normalisation.csproj">
+      <Project>{1c7b3821-5b26-4249-a9af-c70c9e73a2e3}</Project>
+      <Name>Land.NeuralNetwork.Normalisation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Land.NeuralNetwork.Reader\Land.NeuralNetwork.Reader.csproj">
+      <Project>{435d7e38-fb0b-4596-a084-3d1e84a49019}</Project>
+      <Name>Land.NeuralNetwork.Reader</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -57,5 +75,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
- </Project>
+</Project>

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{435D7E38-FB0B-4596-A084-3D1E84A49019}</ProjectGuid>
+    <ProjectGuid>{1C7B3821-5B26-4249-A9AF-C70C9E73A2E3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Land.NeuralNetwork.Reader</RootNamespace>
-    <AssemblyName>Land.NeuralNetwork.Reader</AssemblyName>
+    <RootNamespace>Land.NeuralNetwork.Normalisation</RootNamespace>
+    <AssemblyName>Land.NeuralNetwork.Normalisation</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,16 +41,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\GaussianRepository.cs" />
+    <Compile Include="Services\GaussianService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Land.NeuralNetwork.Core\Land.NeuralNetwork.Core.csproj">
       <Project>{c7021556-0da5-49e7-874d-6f7d5e6a222e}</Project>
       <Name>Land.NeuralNetwork.Core</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repository\" />
-    <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -11,10 +11,10 @@ namespace Land.NeuralNetwork.Core.Models.LandRegistryData
     public class PropertySale
     {
         decimal Price { get; set; }
-        TransferDate TransferDate { get; set; }
-        Region Region { get; set; }
-        PropertyType PropertyType { get; set; }
-        IsNew IsNew { get; set; }
-        Duration Duration { get; set; }
+        DateTime TransferDate { get; set; }
+        string Region { get; set; }
+        char PropertyType { get; set; }
+        char IsNew { get; set; }
+        char Duration { get; set; }
     }
 }
